@@ -76,6 +76,11 @@ namespace saving_grejs
 
             XmlSerializer characterSerializer = new XmlSerializer(typeof(Character));
 
+            using (FileStream file = File.Open(@"myChar.xml", FileMode.OpenOrCreate))
+            {
+                characterSerializer.Serialize(file, myChar);
+            }
+
 
             Console.ReadLine();
 
