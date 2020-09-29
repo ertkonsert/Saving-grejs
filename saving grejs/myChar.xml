@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Character xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <str>10</str>
+  <dex>12</dex>
+  <con>13</con>
+  <intelligence>14</intelligence>
+  <wis>15</wis>
+  <cha>16</cha>
+</Character>
